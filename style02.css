@@ -1,0 +1,320 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+a{
+    color: black ;
+}
+.landingPage{
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white !important;
+}
+.landingPage01 h1{
+    font-size: 50px;
+}
+.landingPage01{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+/*----------------home-------------------- */
+.home{
+    height: auto;
+    background-color: black;
+    padding: 40px 10px 10px 10px;
+    position: relative;
+}
+/*------------- Js function-----------*/
+.d-none{
+    display: none;
+}
+
+/* -----------------menuBar----------------*/
+.menubar{
+    height: fit-content;
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    position: relative;
+}
+.menuBarNavLinks{
+    border-radius: 10px;
+    position: absolute;
+    height: auto;
+    width: 100%;
+    padding: 10px;
+    background-color: white;
+    padding:30px;
+}
+.menuBarNavLinks01{
+    
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.menuBarNavLinks01 i{
+    font-size: 2rem;
+    margin: 0 10px;
+}
+.menussBarNavLinks02{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.profileLogo{
+    height: 100px;
+    background-color:white;
+    width: 100px;
+    border-radius: 100px;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+}
+.profileLogo i{
+    font-size: 50px;
+}
+/* -----------------section01--------------*/
+.section01{
+    height: 100%;
+    background-color:transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+}
+.section001{
+    height: 80%;
+    background-color:lightgray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    
+}
+.sub01{
+    height: 200px;
+    background-color: transparent;
+    width: 200px;
+    border-radius: 100px;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+}
+.sub01 i{
+    color: black !important;
+    font-size: 100px;
+}
+.sub001{
+    padding: 10px;
+    text-align: center;
+}
+.sub001 *{
+    margin: 15px 10px;
+}
+.orderNow{
+    padding: 10px;
+    background-color: green;
+    color: white;
+    border: 0px solid transparent;
+}
+.section01 a{
+    text-decoration: none;
+}
+.section02{
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputSection01{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: fit-content;
+}
+.inputSection001 *{
+    margin: 8px 0;
+}
+.inputSection001{
+
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.singnUpbtn01 *{
+    margin: 0 5px;
+}
+.singnUpbtn01{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: black;
+    border: 0px solid transparent;
+    color: white;
+}
+.singnUpbtn01:hover{
+    border: 0px solid;
+    background-color: white;
+    color: black !important;
+}
+.inputSection001 input{
+    padding: 8px;
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+    width: 100%;
+}
+.singupPage{
+    text-align: center;
+    background-color: black;
+    padding: 50% 0 0 0;
+    height: 100vh;
+    width: 100vw;
+}
+.signUppage{
+    text-align: center;
+}
+.signUppage i{
+    color: white !important;
+    font-size: 30px;
+}
+/* ----------------media----------------- */
+@media (max-width:770px){
+    .home{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .menubar{
+        width: 90%;
+        
+    }
+    .section01{
+        width: 90%;
+        margin: 10px 0;
+    }
+    .section01Nav{
+        display: flex;
+        flex-direction: column;
+    }
+    .section02{
+        display: flex;
+        flex-direction: column;
+    }
+    .inputSection01{
+        margin: 20px 0;
+    }
+    .duplicate01{
+        display: flex;
+    }
+    .box01{
+        margin: 0 2px;
+        height: 2px;
+        width: 10px;
+        background-color: white;
+    }
+
+
+}
+@media (min-width:770px) {
+    .home{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 10px;
+        height: 100vh;
+    }
+    .menubar{
+        margin-left: 20px;
+        width: auto;
+        display: flex;
+        flex-direction: row;
+        flex-grow: 0;
+    }
+    .menussBarNavLinks02{
+        gap: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .menuBarNavLinks01{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 35px;
+
+    }
+    .section01{
+        width: 60%;
+        flex-grow: 1;
+    }
+    .section001{
+        display: flex;
+        flex-direction: row;
+        height: auto;
+    }
+    .sub01{
+        background-color: transparent;
+    }
+    .section02{
+        display: flex;
+        flex-direction: row;
+    }
+    .inputSection001{
+        width: 100%;
+    }
+    .duplicate01{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 30%;
+    }
+    .box01{
+        margin: 2px 0;
+        height: 10px;
+        width: 2px;
+        background-color: white;
+    }
+
+}
+
+/* ------------texts---------------------- */
+.home h1{
+    color: black;
+    font-size: 3rem;
+ 
+}
+.inputSection01 h{
+    text-align: center;
+    color: white;
+
+}
+p{
+    color:black;
+}
